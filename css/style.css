@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 95vh;
+  width: 100vw;
+}
+
+header {
+  height: 5vh;
+  border: 1px solid black;
+}
+
+.main-container {
+  width: 1000px;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.top-comment {
+  border: 1px solid black;
+  height: 5vh;
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-container .left {
+  border: 1px solid black;
+  width: 18%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-container .left .profile {
+  border: 1px solid red;
+  height: 40%;
+  width: 100%;
+}
+
+.content-container .left .groups {
+  border: 1px solid black;
+  height: 58%;
+}
+
+.content-container .middle {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.content-container .right {
+  border: 1px solid black;
+  width: 26%;
+}
+/*# sourceMappingURL=style.css.map */

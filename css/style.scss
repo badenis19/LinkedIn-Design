@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 95vh;
+    width: 100vw;
+}
+
+header {
+    height: 5vh;
+    border: 1px solid black;
+}
+
+.main-container {
+    // border: 1px solid black;
+    width: 1000px;
+    height: 90%; // to remove
+    margin: 0 auto;
+}
+
+.top-comment {
+    border: 1px solid black;
+    height: 5vh;
+}
+
+.content-container {
+    display: flex;
+    // border: 1px solid red;
+    height: 100%;
+    justify-content: space-between;
+
+    .left {
+        border: 1px solid black;
+        width: 18%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .profile {
+            border: 1px solid red;
+            height: 40%;
+            width: 100%;
+        }
+
+        .groups {
+            border: 1px solid black;
+            height: 58%
+        }
+
+
+        
+    }
+
+    .middle {
+        border: 1px solid black;
+        width: 50%;
+    }
+
+    .right {
+        border: 1px solid black;
+        width: 26%;
+    }
+
+}
