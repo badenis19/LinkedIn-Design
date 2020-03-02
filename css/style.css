@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: #F5F5F5;
 }
 
 .main {
@@ -9,8 +10,46 @@ body {
 }
 
 header {
+  background-color: #283E4A;
   height: 5vh;
-  border: 1px solid black;
+}
+
+header .inside-header {
+  height: 100%;
+  width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .inside-header .search {
+  height: 81%;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .inside-header .search i {
+  font-size: 34px;
+  color: #2877B5;
+  padding-right: 10px;
+}
+
+header .inside-header .search #search-bar {
+  height: 24px;
+  width: 225px;
+}
+
+header .inside-header .navbar .fas, header .inside-header .navbar .fab, header .inside-header .navbar .far {
+  color: white;
 }
 
 .main-container {
@@ -20,7 +59,6 @@ header {
 }
 
 .top-comment {
-  border: 1px solid black;
   height: 5vh;
 }
 
@@ -35,7 +73,6 @@ header {
 }
 
 .content-container .left {
-  border: 1px solid black;
   width: 18%;
   height: 100%;
   display: -webkit-box;
@@ -51,23 +88,63 @@ header {
 }
 
 .content-container .left .profile {
-  border: 1px solid red;
   height: 40%;
   width: 100%;
 }
 
 .content-container .left .groups {
-  border: 1px solid black;
   height: 58%;
 }
 
 .content-container .middle {
-  border: 1px solid black;
   width: 50%;
 }
 
+.content-container .middle .start-post {
+  height: 100px;
+  margin-bottom: 25px;
+}
+
+.content-container .middle .recommended {
+  height: 210px;
+  margin-bottom: 10px;
+}
+
+.content-container .middle .post {
+  height: 345px;
+  margin-bottom: 10px;
+}
+
 .content-container .right {
-  border: 1px solid black;
   width: 26%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-container .right .news {
+  height: 40%;
+}
+
+.content-container .right .promoted {
+  height: 37%;
+}
+
+.content-container .right .learning {
+  height: 20%;
+}
+
+.section {
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 /*# sourceMappingURL=style.css.map */
