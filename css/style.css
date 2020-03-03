@@ -28,7 +28,7 @@ header .inside-header {
 
 header .inside-header .search {
   height: 81%;
-  width: 400px;
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +41,7 @@ header .inside-header .search i {
   font-size: 34px;
   color: #2877B5;
   padding-right: 10px;
+  display: block;
 }
 
 header .inside-header .search #search-bar {
@@ -48,8 +49,37 @@ header .inside-header .search #search-bar {
   width: 225px;
 }
 
+header .inside-header .navbar {
+  height: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: 1px solid #c7d1d8;
+}
+
+header .inside-header .navbar .nav-icon {
+  height: 100%;
+  width: 80px;
+  text-align: center;
+}
+
+header .inside-header .navbar .nav-icon :hover {
+  background: red;
+}
+
+header .inside-header .navbar .nav-icon p {
+  margin: 0;
+  font-size: 12px;
+  color: #c7d1d8;
+}
+
 header .inside-header .navbar .fas, header .inside-header .navbar .fab, header .inside-header .navbar .far {
   color: white;
+  padding-top: 8px;
+  font-size: 20px;
 }
 
 .main-container {
@@ -146,5 +176,9 @@ header .inside-header .navbar .fas, header .inside-header .navbar .fab, header .
   -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
   background-color: white;
+}
+
+.underli {
+  border-bottom: 3px solid white;
 }
 /*# sourceMappingURL=style.css.map */
